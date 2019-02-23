@@ -1,0 +1,23 @@
+{
+  "name": "jeejee",
+  "version": "1.0.0",
+  "description": "This is a food delivery system in a region.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whilemind/jeejee.git"
+  },
+  "keywords": [
+    "ordering",
+    "delivery"
+  ],
+  "author": "Mohammad Mahabub Alam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whilemind/jeejee/issues"
+  },
+  "homepage": "https://github.com/whilemind/jeejee#readme"
+}
