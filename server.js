@@ -27,7 +27,7 @@ app.use(require('./controllers/welcome'));
 
 // listening server
 server.listen(config.port, config.ip, function() {
-  logger.info('Server running at http://' + ip.address() + ':' + config.port + '/');
+  console.log('Server running at http://' + ip.address() + ':' + config.port + '/');
 });
 
 

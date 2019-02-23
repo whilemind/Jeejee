@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/whilemind/jeejee/issues"
   },
-  "homepage": "https://github.com/whilemind/jeejee#readme"
+  "homepage": "https://github.com/whilemind/jeejee#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "http": "0.0.0",
+    "ip": "^1.1.5"
+  }
 }
