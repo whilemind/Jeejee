@@ -1,2 +1,2 @@
 # Jeejee
-It is a open source auction site.
+It is a open source food delivery site.
