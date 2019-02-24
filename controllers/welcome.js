@@ -6,6 +6,4 @@ welcome.get('/',function(req,res){
   res.redirect('/customer/')
 });
 
-
 module.exports = welcome;
-

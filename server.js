@@ -3,8 +3,8 @@ const path        = require('path');
 const express     = require("express");
 const bodyParser  = require("body-parser");
 const config      = require('./configs/config');
-var session       = require('express-session');
 const app         = express();
+var session       = require('express-session');
 var server        = require('http').Server(app);
 
 // configuring app
@@ -20,14 +20,13 @@ app.use(bodyParser.urlencoded({ extended: false}));
 app.use(express.static(path.join(__dirname, 'assets')));
 app.use("/nscripts", express.static(path.join(__dirname, 'node_modules')));
 
-
 // Routing of the app
 app.use(require('./controllers/welcome'));
-
+app.use("/customer", require('./controllers/customer'));
+app.use("/admin", require('./controllers/admin'));
+app.use("/shop", require('./controllers/shop'));
 
 // listening server
 server.listen(config.port, config.ip, function() {
   console.log('Server running at http://' + ip.address() + ':' + config.port + '/');
 });
-
-
