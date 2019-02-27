@@ -5,7 +5,7 @@ const shop    = express.Router();
 
 shop.get('/', function(req, res) {
   console.log("Url " + req.url);
-  res.render('shop/index', {
+  res.render('shop/login', {
     title: 'Jeejee',
   });
 });

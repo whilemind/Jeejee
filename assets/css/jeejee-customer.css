@@ -1,3 +1,82 @@
+/* All the common styling */
+@font-face {
+  font-family: Roboto-Regular;
+  src: url('/font/roboto/Roboto-Regular.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url('/font/roboto/Roboto-Light.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Roboto-Thin;
+  src: url('/font/roboto/Roboto-Thin.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url('/font/roboto/Roboto-Bold.ttf');
+  font-weight: bold;
+}
+/* end of common styling */
+
 body {
+  font-family: Roboto-Light;
   width: 100%;
+}
+
+h1, h2, h3, h4  {
+  font-family: Roboto-Bold;
+}
+
+button, input{
+  font-family: Roboto-Regular;
+}
+
+/* end of common styling */
+
+.banner {
+  background: url('/img/banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 450px;
+  width: 100%;
+}
+
+.short-msg {
+  width: 100%;
+  text-align: center;
+  min-height: 50px;
+  padding: 10px;
+}
+
+.popular-menu {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: rgba(140, 140, 140, 0.35);
+  text-align: center;
+}
+
+.top-city {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.mobile-app {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: rgba(245, 245, 50, 0.65);
+  text-align: center;
 }
