@@ -80,3 +80,11 @@ button, input{
   background: rgba(245, 245, 50, 0.65);
   text-align: center;
 }
+
+.about-us {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #ffffff;
+  text-align: center;
+}

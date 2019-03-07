@@ -1,4 +1,42 @@
 <% include ./partial/header-navless %>
-    <h1 style="text-align: center; width: 100%;">Shop Login!</h1>
-
+<div class="container ">
+  <div class="row">
+    <div class="col-md-4 offset-md-4 col-sm-6 offset-sm-3 col-xs-10 offset-xs-1">
+      <div class="panel panel-default login-panel">
+        <div class="panel-heading company-name">
+          <h3 class="panel-title">Jeejee Shop</h3>
+        </div>
+        <div class="panel-body">
+          <form role="form" action="post" id="login_form" enctype="multipart/form-data">
+            <fieldset>
+              <div class="label-manage-account">
+                <label>Manage your Jeejee account</label>
+              </div>
+              <div class="input-group input-group-custom input-group-custom-top">
+                <input type="text" name='username' class="form-control" placeholder="E-mail/Phone" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group input-group-custom input-group-custom-bottom">
+                <input type="password" name='password' class="form-control" placeholder="Password" aria-describedby="basic-addon1">
+                <span class="input-group-addon login-button" onclick="login();"><i class="fa fa-arrow-circle-right fa-2x"></i></span>
+                </span>
+              </div>
+              <div class="forgot-password">
+                <label>
+                  <a href="#">Forgot username or password?</a>
+                </label>
+              </div>
+              <!-- Change this to a button or input when using this as a form -->
+              <!-- <a href="/dashboard" class="btn btn-lg btn-success btn-block">Login</a> -->
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  var login = (() => {
+    alert("hello");
+  });
+</script>
 <% include ./partial/footer-nocopyright %>
