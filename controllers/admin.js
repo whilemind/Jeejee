@@ -6,7 +6,7 @@ const admin    = express.Router();
 
 admin.get('/', function(req, res) {
   console.log("Url " + req.url);
-  res.render('admin/index', {
+  res.render('admin/login-admin', {
     title: 'Jeejee',
   });
 });

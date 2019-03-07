@@ -1,0 +1,148 @@
+/* Start login page style */
+.login-nav {
+  margin-bottom: 0;
+  background: rgba(256, 256, 256, 0.80);
+  border: 0px;
+}
+
+.login-form {
+  margin-top: 10%;
+}
+
+.login-panel {
+  margin-top: 25%;
+  background: transparent;
+  border: 0px;
+  -webkit-box-shadow: 0px 0px 0px !important;
+  box-shadow: 0px 0px 0px !important;
+}
+
+.panel-heading {
+  background: transparent !important;
+  border: 0px;
+}
+
+.panel-title {
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff !important;
+}
+
+.label-manage-account {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: #fff;
+}
+
+.login-remember-me {
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 7%;
+}
+
+.login-remember-me label {
+  font-weight: bold !important;
+
+}
+
+.forgot-password {
+  margin-top: 15%;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
+
+.forgot-password a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.login-button {
+  background: transparent;
+  cursor: pointer;
+  padding-top: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.padding-top {
+  padding-top: 10px;
+}
+
+.company-name h3 {
+  margin: auto auto;
+  width: 100%;
+  text-align: center;
+  color: #0D47A1;
+}
+
+.input-group-custom {
+  background: #fff !important;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.input-group-custom input {
+  border: 0px solid #ccc;
+}
+
+.input-group-custom-top {
+  border-radius: 8px 8px 0px 0px;
+}
+
+.input-group-custom-top input {
+  border-radius: 8px 8px 0px 0px !important;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background: transparent;
+  border: 0px;
+}
+
+.input-group-custom-top span {
+  border-radius: 0px 8px 0px 0px;
+}
+
+.input-group-custom-bottom {
+  border-top: 0px;
+  border-right: 0px;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.input-group-custom-bottom input {
+  border-radius: 0px 0px 8px 8px;
+}
+
+.input-group-custom-bottom span {
+  border-radius: 0px 0px 8px 0px;
+  background: transparent;
+  border: 0px;
+}
+
+.signin_label {
+  color: #fff;
+}
+
+.fa-2x {
+  font-size: 30px;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.gi-4x {
+  font-size: 4em;
+}
+
+.gi-5x {
+  font-size: 5em;
+}
+
+.gi-white {
+  color: #aaa;
+}
+
+/* End of login page style */
