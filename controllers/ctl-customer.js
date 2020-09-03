@@ -4,10 +4,10 @@ const ip          = require('ip');
 const customer    = express.Router();
 
 
-customer.get('/', function(req, res) {
+customer.get('/profile', function(req, res) {
   console.log("Url " + req.url);
-  res.render('customer/index', {
-    title: 'NIBFlix',
+  res.render('customer/profile', {
+    title: 'Jeejee',
   });
 });
 

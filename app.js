@@ -21,10 +21,19 @@ app.use(express.static(path.join(__dirname, 'assets')));
 app.use("/nscripts", express.static(path.join(__dirname, 'node_modules')));
 
 // Routing of the app
-app.use(require('./controllers/welcome'));
-app.use("/customer", require('./controllers/customer'));
-app.use("/admin", require('./controllers/admin'));
-app.use("/shop", require('./controllers/shop'));
+app.use(require('./controllers/ctl-web'));
+app.use("/customer", require('./controllers/ctl-customer'));
+app.use("/admin", require('./controllers/ctl-admin'));
+app.use("/shop", require('./controllers/ctl-shop'));
+
+app.use("/api/customer", require('./api/api-customer'));
+
+// Error routing.
+app.get('*', function(request, response) {
+  response.render('error/index.ejs', {
+    title: 'error'
+  });
+});
 
 // listening server
 server.listen(config.port, config.ip, function() {
